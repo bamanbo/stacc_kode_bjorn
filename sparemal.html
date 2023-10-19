@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link href="css/styles.css" rel="stylesheet">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel=
+	"stylesheet">
+
+	<title>Sparemål</title>
+</head>
+
+<body>
+	<main>
+		<header>
+			<div class="tabs">
+				<input checked id="tab1" name="tab-group" type="radio"> <label for=
+				"tab1"><a href="oversikt.html"><i class=
+				'bx bx-home-alt-2'></i>Oversikt</a></label> <input checked id="tab2" name=
+				"tab-group" type="radio"> <label for="tab2"><i class=
+				'bx bx-wallet-alt'></i>Transaksjoner</label> <input checked id="tab3" name=
+				"tab-group" type="radio"> <label for="tab3"><i class=
+				'bx bxs-bank'></i>Betalinger</label> <input checked id="tab4" name=
+				"tab-group" type="radio"> <label for="tab4"><a href=
+				"sparemal.html"><i class='bx bx-map-alt'></i>Sparemål</a></label>
+				<input checked id="tab5" name="tab-group" type="radio"> <label for=
+				"tab5"><a href="bank_login.html"><i class=
+				'bx bxs-user-account'></i>Konto</a></label>
+			</div>
+		</header>
+
+
+		<section id="sparemal_section">
+			<h1>Velkommen til dine<br>
+			<span class="sparemal_h1">SPAREMÅL</span></h1>
+
+
+			<div class="rocket-container">
+				<div class="wrapper">
+					<div class="vertical">
+						<div class="line-1">
+						</div>
+
+
+						<div class="line-2">
+						</div>
+
+
+						<div class="line-3">
+						</div>
+
+
+						<div class="line-4">
+						</div>
+
+
+						<div class="line-5">
+						</div>
+					</div>
+
+
+					<div class="horizontal">
+					</div>
+
+
+					<div class="graph-1">
+					</div>
+
+
+					<div class="graph-2">
+					</div>
+
+
+					<div class="graph-3">
+					</div>
+
+
+					<div class="rocket">
+						<div class="window">
+						</div>
+
+
+						<div class="stripe">
+						</div>
+
+
+						<div class="exhaust">
+						</div>
+
+
+						<div class="fire-1">
+						</div>
+
+
+						<div class="fire-2">
+						</div>
+
+
+						<div class="smoke">
+						</div>
+					</div>
+
+
+					<div class="left-wing">
+					</div>
+
+
+					<div class="right-wing">
+					</div>
+
+
+					<div class="bubble">
+					</div>
+
+
+					<div class="small-bubble">
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section>
+			<h2>Venners sparemål:</h2>
+
+
+			<div class="container">
+				<div class="chart">
+					<canvas height="300" id="barchart" width="300">
+					</canvas>
+					<button onclick="updateData()">Oppdater dataen</button>
+				</div>
+			</div>
+		</section>
+
+
+		<section>
+			<h2>Ting du har spart opp til nå:</h2>
+
+
+			<div class="responsive">
+				<div class="gallery">
+					<a href="https://www.apple.com/no/iphone-15-pro/"><img alt="Iphone 15 Pro"
+					src="images/iphone15.png"></a>
+
+					<div class="desc">
+						En nydelig og ekstremt rask telefon utviklet av Apple.<br>
+						14 990 NOK
+					</div>
+				</div>
+			</div>
+
+
+			<div class="responsive">
+				<div class="gallery">
+					<a href=
+					"https://www.momondo.no/flight-search/BGO-ROM/2023-10-23/2023-10-30?sort=bestflight_a">
+					<img alt="A nice travel" src="images/italy.png"></a>
+
+					<div class="desc">
+						Nå kan du reise langt langt vekk. Kanskje ta en tur til Italia?<br>
+						3 000 NOK
+					</div>
+				</div>
+			</div>
+
+
+			<div class="responsive">
+				<div class="gallery">
+					<a href="https://www.apple.com/no/imac-24/"><img alt="The IMac" src=
+					"images/imac.png"></a>
+
+					<div class="desc">
+						En rask og fin datamaskin. Denne går det ikke an å være skuffet av.<br>
+						29 000 NOK
+					</div>
+				</div>
+			</div>
+
+
+			<div class="responsive">
+				<div class="gallery">
+					<a href="https://www.eggemusikk.no/categories/euphoniumbaryton1"><img alt=
+					"A euphonium" src="images/euphonium.png"></a>
+
+					<div class="desc">
+						Et nydelig instrument med nydelig klang. Nå kan du endelig lage
+						fantastisk musikk.<br>
+						25 000 NOK
+					</div>
+				</div>
+			</div>
+
+
+			<div class="clearfix">
+			</div>
+		</section>
+
+
+		<section>
+			<h2>Ting karakteren din kan få seg:</h2>
+
+
+			<div class="responsive">
+				<div class="gallery">
+					<img alt="A cool looking grey hat" src="images/hat.jpeg">
+
+					<div class="desc">
+						En kul hat som alle vil misunne!<br>
+						<span class="value_character">Verdi: 400 NOK spart opp</span>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="responsive">
+				<div class="gallery">
+					<img alt="Cool looking scarves" src="images/scarf.jpeg">
+
+					<div class="desc">
+						Kule skjerf som du bare må ha!<br>
+						<span class="value_character">Verdi: 2500 NOK spart opp</span>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="responsive">
+				<div class="gallery">
+					<img alt="A fine looking cat, lying on the floor" src="images/cat.jpeg">
+
+					<div class="desc">
+						Var ikke denne katten søt? Den hadde passet bra i bakgrunnen ved siden av
+						din karakter.<br>
+						<span class="value_character">Verdi: 15 000 NOK spart opp</span>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="responsive">
+				<div class="gallery">
+					<img alt="A really nice looking, black, Gucci bag" src=
+					"images/gucci.jpeg">
+
+					<div class="desc">
+						Denne vesken hadde passet perfekt til antrekket til karakteren din!<br>
+						<span class="value_character">Verdi: 35 000 NOK spart opp</span>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="clearfix">
+			</div>
+		</section>
+
+
+		<section>
+			<h2>Ting du kan oppnå snart:</h2>
+
+
+			<div class="responsive">
+				<div class="gallery">
+					<img alt="A beautiful looking diamond" src="images/diamand.jpeg" class="grayscale">
+
+					<div class="desc">
+						Du har ikke låst opp denne premien enda.<br>
+						<span class="value_character">Verdi: 50 000NOK</span>
+					</div>
+				</div>
+			</div>
+
+            <div class="clearfix">
+            </div>
+		</section>
+
+
+		<footer>
+			<div class="footer-content">
+				<div class="footer-section contact">
+					<h3>Kontakt</h3>
+
+
+					<h4 class="address-footer">Adresse:</h4>
+
+
+					<p>Bankveien 12<br>
+					5076 Bergen</p>
+
+
+					<h4 class="epost-footer">Epost:</h4>
+
+
+					<p>bank@gmail.com</p>
+
+
+					<h4 class="telefon-footer">Telefon:</h4>
+
+
+					<p>483 22 981</p>
+
+
+					<p>(Alle dager mellom 10:00 - 20:00)</p>
+				</div>
+
+
+				<div class="footer-section nettside">
+					<h3>Nettside</h3>
+
+
+					<h4 class="hjem-footer">Hjem</h4>
+
+
+					<h4 class="about">Om oss</h4>
+
+
+					<h4 class="footer-contact">Kontakt oss</h4>
+
+
+					<h4 class="footer-personvern">Personvern</h4>
+				</div>
+			</div>
+
+
+			<div class="footer-bottom">
+				<p>&copy; Bjørn Olav 2023</p>
+			</div>
+		</footer>
+
+		<script src=
+		"https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js">
+		</script> 
+        
+		<script src="chart.js">
+		</script>
+
+	</main>
+</body>
+</html>
